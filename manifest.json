@@ -1,0 +1,23 @@
+{
+    "name": "Cookie clear extension",
+    "short_name": "clear cookies",
+    "description": "It can delete all cookies and it uses js",
+    "version": "1.1",
+    "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*", "background" ],
+    "icons": { "48": "icon1.png", "128": "icon2.png" },
+    "browser_action": {
+        "default_icon": "default-icon.png"
+    },
+    "content_scripts": [
+        {
+            "run_at": "document_idle",
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
