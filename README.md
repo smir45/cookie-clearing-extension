@@ -1,14 +1,17 @@
 # Cookie-clear-extension
+
 `----------------------------------`
 
 #### What This Extension Does
 
+`-------------------------------------------`
 
 ### Deletes All Cookies
 
-
+`-------------------------------------------`
 
 ### Deletes Cookies Visible To JavaScript
+
 `-------------------------------------------`
 
 
